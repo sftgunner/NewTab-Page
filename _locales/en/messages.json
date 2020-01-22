@@ -1,0 +1,11 @@
+{
+    "extName": {
+        "message": "SGMBP New Tab Page",
+        "description": "The title of the extension, displayed in the web store."
+
+    },
+    "extDesc": {
+        "message": "A custom new tab page written specifically for this computer. Not to be published.",
+        "description":"The description of the extension, displayed in the web store."
+    }
+}

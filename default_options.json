@@ -1,0 +1,23 @@
+{
+    "page_title": "New Tab",
+    "online_status": true,
+    "clock": "24h",
+    "themeswitcher": true,
+    "default_theme": "light",
+    "locale": "en",
+    "search_engine": "https://www.google.co.uk/search",
+    "shortcuts": {
+        "Amazon": "https://www.amazon.com",
+        "Facebook": "https://www.facebook.com",
+        "Reddit": "https://www.reddit.com",
+        "Wikipedia": "https://www.wikipedia.org",
+        "YouTube": "https://www.youtube.com"
+    },
+    "greetings":{
+        "morning": "Good morning{greeting_name}.",
+        "afternoon": "Good afternoon{greeting_name}.",
+        "evening": "Good evening{greeting_name}.",
+        "night": "Go to bed{greeting_name}!"
+    },
+    "greeting_name": null
+}

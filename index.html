@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <!-- Bootstrap CSS files -->
+        <link rel="stylesheet" href="bootstrap/bootstrap.min.css"/>
+        <link rel="stylesheet" href="bootstrap/bootstrap-reboot.min.css"/>
+        <link rel="stylesheet" href="bootstrap/bootgrid.css"/>
+        <link rel="stylesheet" href="bootstrap/font-awesome.min.css"/>
+        <!-- Custom styles for this template -->
+        <link href="index.css" rel="stylesheet"/>
+        <!-- Bootstrap JS files -->
+        <script src="jQuery.js"></script>
+        <script src="bootstrap/popper.min.js"></script>
+        <script src="bootstrap/bootstrap.min.js"></script>
+        <script src="bootstrap/fontawesome.js"></script>
+        <script src="bootstrap/bootgrid.js"></script>
+        <!-- Custom JavaScript for NavBar (basically just the clock!) -->
+        <script src="js/arrive.min.js"></script>
+        <script src="js/navbar.js"></script>
+        
+        <title>{title}</title>
+    </head>
+    <body id="bgrnd">
+        <!--NavBar-->
+        <nav class="navbar navbar-expand-lg navbar-dark static-top navbarlightblue" id="Searchhtml_NavBar"><div class="m-0 p-0">
+            <a class="navbar-brand mr-0 pr-1" href="chrome://newtab" id="page_title">{page_title}</a></div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#searchnavtoggle">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="searchnavtoggle">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0" id="shortcut_container">  
+            </ul>
+            <form action="https://speedtest.net">
+                <button id="connectioncheck" class="btn btn-outline-success my-2 my-sm-0 mr-2" type="submit">Online</button>
+            </form>
+            <ul id="themeswitcher_container" class="navbar-nav my-2 my-sm-0 mr-2">
+                <script src="js/themeswitcher_v2.js"></script>
+            <li class="nav-item">
+                <span id="time" class="nav-link" href="#time">{clock}</span>
+            </ul>
+        </div>
+        </nav>
+        <!-- Masthead -->
+        <header class="masthead mastheadbg text-white" id="header1">
+            <div class="overlay"></div>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-xl-9 mx-auto">
+                        <h1 class="mb-5">
+                            <span id="greeting">{greeting}</span>
+                        </h1>
+                    </div>
+                    <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+                        <fieldset id="searchfieldset" enabled>
+                            <form id="form" method=GET action="{action}">
+                                <div class="form-row">
+                                    <div class="col-12 col-md-9 mb-2 mb-md-0">
+                                        <input type="text" class="form-control form-control-lg" id="gsearch" name="q" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" autofocus/>
+                                        <!--input type="hidden" name="origin" value="//sgmbp.gunner.systems/search/"/-->
+                                        <!--input type="hidden" name="engine" value="google"/-->
+                                    </div>
+                                    <div class="col-12 col-md-3">
+                                        <button id="searchsubmit" type="submit" class="btn btn-block btn-lg btn-primary">Search</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <script src="js/index.js"></script>
+    </body>
+</html>
