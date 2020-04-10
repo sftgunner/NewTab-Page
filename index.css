@@ -21,6 +21,7 @@ header.masthead {
 header.mastheadbg{
     background-color: #343a40;
     background: url(resources/bg.jpg) no-repeat center center;
+    background-size: cover;
 }
 header.masthead .overlay {
     position: absolute;
