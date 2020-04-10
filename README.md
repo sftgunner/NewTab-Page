@@ -12,11 +12,13 @@ A Chromium-based browser (Google Chrome or Microsoft Edge >v79).
 
 As this extension is still in development, it is not currently available for install through the Google or Microsoft extension stores.
 
-To run it, it must be sideloaded. To load it in Chrome, please follow these instructions: https://developer.chrome.com/extensions/getstarted#manifest
+To run it, it must be sideloaded. 
+
+To sideload this extension in Chrome, please follow these instructions: https://developer.chrome.com/extensions/getstarted#manifest
 
 To sideload this app in Microsoft Edge (Chromium), please follow these instructions: https://docs.microsoft.com/en-us/microsoft-edge/extensions-chromium/getting-started/part1-simple-extension#run-your-extension-locally-in-your-browser-while-developing-it-side-loading
 
-If you have an issue, please feel free to open a pull request!
+If you experience any difficulty installing this extension, please open an Issue.
 
 ## Configuration
 
